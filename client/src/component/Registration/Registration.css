@@ -1,0 +1,38 @@
+.div-li {
+  display: inline-grid;
+}
+.input-r {
+      border: none;
+     display: block;
+    margin-top: 1em;
+  margin-left: 7px;
+  margin-right: 7px;
+  padding: 1em;
+  min-width: 300px;
+  outline: none;
+  border-radius: 10px;
+}
+.label-r {
+  margin: 0.1em;
+  padding: 0.5em;
+  display: block;
+}
+.note {
+  width: 82%;
+  padding: 11px;
+  font-size: 0.9em;
+  padding-left: 1px;
+  margin-left: 10px;
+  text-align: justify;
+  max-height: 120px;
+  color: rgb(255, 255, 255);
+  overflow: auto;
+  line-height: 1.5em;
+}
+
+.registerText{
+  font-size: 0.8em;
+  margin-left: 10px;
+  font-style: italic;
+  color: rgb(56, 56, 56);
+}

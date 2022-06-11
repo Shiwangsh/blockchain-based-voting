@@ -1,0 +1,77 @@
+.home-page-main{
+ color: #ffffff;
+}
+
+.heading {
+    font-size: 3.5em;
+    font-weight: 500;
+    margin-left: 120px;
+}
+.caption {
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-left: 120px;
+    color: #ffffff;
+}
+
+.break{
+    margin-left: 110px;
+    margin-right: 120px;
+    border: 0.01px solid rgb(255, 0, 217);
+}
+
+
+/* LearnMore CSS */
+
+.headingLearn {
+    font-size: 2.5em;
+    font-weight: 500;
+    color: #ffffff;
+    margin-left: 120px;
+}
+
+.img-fluid{
+    margin-left: 120px;
+    margin-top: 20px;
+    border: 1.8px solid #f700ff;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.content1{
+    padding: 5px;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.lead2{
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.containerLearnMore {
+    /* background-image: linear-gradient(to top, #063ffc, #00ccff); */
+    background: rgb(25,0,36);
+    background: linear-gradient(90deg, rgba(25,0,36,1) 0%, rgba(194,1,251,1) 43%, rgba(0,181,255,1) 80%);
+    color: #ffffff;
+    font-weight: bold;
+    border: 1px;
+    border-radius: 10px;
+    width: 60%;
+    padding: 17px;
+    margin-left: 110px;
+  }
+
+.containerLearn2 {
+   background: rgb(255,0,0);
+   background: rgb(255,0,0);
+   background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(251,1,128,1) 100%, rgba(255,183,0,1) 100%);
+    border: 1px solid #000000;
+    border-radius: 10px;
+    width: 60%;
+    padding: 10px;
+    margin-left: 110px;
+}

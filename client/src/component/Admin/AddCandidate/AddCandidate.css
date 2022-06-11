@@ -1,0 +1,63 @@
+.form {
+  width: fit-content;
+  margin: 5px;
+  padding: 7px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+}
+.input-ac {
+    border: none;
+     display: block;
+    margin-top: 1em;
+  margin-left: 7px;
+  margin-right: 7px;
+  padding: 1em;
+  min-width: 300px;
+  outline: none;
+  border-radius: 10px;
+}
+
+.label-ac {
+  display: block;
+  margin: 0.1em;
+  padding: 0.5em;
+}
+.btn-add {
+  background-color: #EA4C89;
+   border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  padding: 1em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn-add:hover,
+.btn-add:focus {
+  background-color: #F082AC;
+}
+@media all and (max-width: 400px) {
+  .input-ac,
+  .btn-add {
+    width: 100%;
+  }
+  .btn-add {
+    float: inline-start;
+  }
+}
+
+
+
+
+
+

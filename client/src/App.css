@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+h1 {
+  text-align: center;
+}
+
+code {
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+  border-radius: 6px;
+  border: 1px solid;
+}
+
+.container-main {
+  background-color: none;
+  padding: 1%;
+  margin: 11px;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  overflow: auto;
+}
+
+.container-item {
+  border-radius: 10px;
+  width: 800px;
+  padding: 10px;
+  margin: 17px auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  overflow: auto;
+	background-color: rgb(154, 91, 214);
+	border-radius: 10px;
+}
+
+
+.title {
+  text-transform: capitalize;
+}
+
+.container-list {
+  width: 100%;
+  padding: 15px;
+  margin: 3px auto;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  overflow: auto;
+}
+
+.container-list-2 {
+  padding: 20px;
+  margin: 3px auto;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  overflow: auto;
+}
+
+
+@media all and (max-width: 1020px) {
+  .container-item {
+    width: 777px;
+  }
+}
+@media all and (max-width: 900px) {
+  .container-item {
+    width: 800px;
+    display: block;
+  }
+}
+@media all and (max-width: 850px) {
+  .container-item {
+    width: 700px;
+  }
+}
+@media all and (max-width: 750px) {
+  .container-item {
+    width: 600px;
+  }
+}
+@media all and (max-width: 650px) {
+  .container-item {
+    width: 400px;
+  }
+}
+@media all and (max-width: 400px) {
+  .container-item {
+    width: 300px;
+  }
+}
+
+.info,
+.attention,
+.general,
+.alert,
+.success {
+  border: 1px solid black;
+  margin-top: 11px;
+  margin-bottom: 11px px;
+}
+
+.info {
+ background: #662d91;
+ color: rgb(255, 255, 255);
+}
+.attention {
+background-color: #800080;
+color: rgb(255, 255, 255);
+}
+.success {
+  background-color: #59A96A;
+}
+
+.startBtn{
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.startBtn:hover{
+  
+    box-shadow: rgba(255, 255, 255, 0.673) 0 1px 30px;
+  transition-duration: .1s;
+}

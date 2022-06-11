@@ -1,0 +1,21 @@
+.label-home {
+  display: block;
+  padding: 0.5em;
+}
+.input-home {
+   border: none;
+     display: block;
+    margin-top: 1em;
+  margin-left: 7px;
+  margin-right: 7px;
+  padding: 1em;
+  min-width: 300px;
+  outline: none;
+  border-radius: 10px;
+}
+@media all and (max-width: 400px) {
+  .input-home {
+    width: 100%;
+  }
+  
+}
