@@ -52,3 +52,17 @@ Decentralized voting system based on Ethereum blockchain.
    npm start
 
 Register into the system, change account address via the metamask extension and log in to access the features of the system.
+
+### SCREENSHOTS
+
+![image](https://user-images.githubusercontent.com/61860925/182881463-c05a5b80-19ba-448a-940f-ae36f8531d19.png)
+
+![image](https://user-images.githubusercontent.com/61860925/182881493-28c81aaf-dd24-44ca-9ce5-4fff89e2fae2.png)
+
+![image](https://user-images.githubusercontent.com/61860925/182881571-c02132f2-c1f2-4b2b-a66c-49e7f4f62d04.png)
+
+![image](https://user-images.githubusercontent.com/61860925/182881643-6fe698c1-3b5b-4a43-a6e9-bd71571ab4e0.png)
+
+![image](https://user-images.githubusercontent.com/61860925/182881693-d10133e5-bd7e-4925-a814-897e0cd6460f.png)
+
+
